@@ -164,3 +164,11 @@ main img {
     border-radius: 8px; /* เพิ่มความโค้งมนให้รูปภาพ */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ดูสวยงาม */
 }
+main img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
