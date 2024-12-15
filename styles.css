@@ -130,3 +130,28 @@ main {
     gap: 2rem;
     padding: 2rem;
 }
+/* Main Layout */
+main {
+    display: grid; /* ใช้ Grid Layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* สร้างคอลัมน์ที่ยืดหยุ่น */
+    gap: 1.5rem; /* ช่องว่างระหว่างแต่ละ Section */
+    padding: 2rem; /* เพิ่ม Padding รอบ ๆ main */
+    max-width: 1200px; /* จำกัดความกว้างสูงสุดของเนื้อหา */
+    margin: 0 auto; /* จัดกลางหน้าเว็บ */
+}
+
+/* Section Styling */
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* ทำให้รูปภาพมีมุมโค้ง */
+    margin-top: 1rem;
+}
