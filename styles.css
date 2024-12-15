@@ -114,3 +114,13 @@ button {
 button:hover {
     background-color: #005bb5;
 }
+button:hover {
+    background-color: #005bb5;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
