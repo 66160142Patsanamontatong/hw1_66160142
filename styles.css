@@ -36,3 +36,15 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
 }
+/* Main Content */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
